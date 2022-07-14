@@ -1,0 +1,62 @@
+html,body{ 
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font:normal 75% Arial, Helvetica, sans-serif;
+  }
+  
+  canvas{
+    display:block;
+    vertical-align:bottom;
+  }
+  
+#particles-js{
+    height: 100%!important;
+    width: 100%!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(237,49,147,1) 100%);
+    background-repeat: no-repeat;
+  background-position: 50% 50%;
+    background-size: cover;
+}
+.img-1{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+.img-2{
+    height: auto;
+    width: 300px;
+}
+.title{
+    z-index: 999999999;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+
+}
+.btn-mine{
+    background-color: #ed3193;
+    padding: 15px;
+    font-size: 20px;
+}
+.btn-mine:hover{
+    background-color: #c71772;
+}
+.btn-mine:active{
+    background-color: #c71772;
+}
+
+@media only screen and (max-width:600px){
+    .lill-img{
+        visibility: hidden;
+    }
+}
